@@ -4,22 +4,26 @@ Last updated: Fri 11/09/2026
 
 ## Website
 
-Status: Live, but requires review and cleanup.
+Status: Live, but requires review and cleanup. Public site inventory was completed on 2026-09-11 and documented in `docs/SITE_MAP.md` and `docs/CURRENT_WEBSITE_INVENTORY.md`.
 
-Known or suspected issues:
+Known or observed issues:
 
 - navigation and site structure need review;
 - some content may be unfinished or outdated;
-- some product links may be broken;
-- mobile and visual consistency need checking.
+- some product links are broken;
+- mobile and visual consistency need checking;
+- public sitemap includes hidden/private-looking utility, prep, test and duplicate pages;
+- WAI chat external app links returned errors during read-only checks;
+- Rehumanizer external app link returned successfully during read-only check;
+- public utility pages expose Google Apps Script job-scraper triggers.
 
 ## Rehumanizer
 
-Status: Partially built / needs inspection.
+Status: Public launch page exists and the external Hugging Face app link returned successfully during read-only discovery.
 
 Known issue:
 
-- deployment or linking may currently be broken.
+- implementation and end-to-end behaviour still require functional inspection.
 
 ## RFP Evaluator
 
